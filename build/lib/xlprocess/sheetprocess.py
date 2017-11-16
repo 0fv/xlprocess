@@ -1,10 +1,9 @@
-from xlprocess.formatchange import setfilename
-from xlprocess.xlsxlist import listtoxlsx
 
+from xlprocess.formatchange import  filetype,setfilename
 from xlprocess.tolist import alltolist, tolist
 
 
-def rowtltie(filename='',sheetnum=-1,title=1):
+def rowtltie(xlsx=True,filename='',sheetnum=-1,title=1):
     if sheetnum==-1:
         datas=alltolist(filename)
     else:
@@ -19,11 +18,9 @@ def rowtltie(filename='',sheetnum=-1,title=1):
             data1.append(rtitle)
             data1.append(row)
         adata.append(data1)
-    filename=setfilename(filename)+'2.xlsx'
-    listtoxlsx(filename,adata)
-rowtltie('data/test1.xls',title=3)
+    filetype(xlsx,filename,adata)
 
-def groupby(filename,sheetnum=-1,*col):
+def groupby(xlsx=True,filename='',sheetnum=-1,*col):
     datas=tolist(filename,sheetnum)
     adata=[]
     for data in datas:
@@ -46,8 +43,8 @@ def groupby(filename,sheetnum=-1,*col):
                 else:
                     data1.append(rowa)
         adata.append(data1)
-    filename = setfilename(filename) + '(groupby).xlsx'
-    listtoxlsx(filename,adata)
+    filename = setfilename(filename)+'(groupby).xlsx'
+    filetype(xlsx, filename, adata)
 #groupby('data/test1.xls',0,1,2,3)
 
 

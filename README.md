@@ -20,11 +20,11 @@ Default return a new file named 'comfile.xlsx',but when the character in cell is
 ## Split one file accroding sheet's name
 -  fileprocess.filesplit(xlsx=True,'filename')
 ### Generate row title
-- sheeetprocess.rowtltie('filename',sheetnum=-1,title=1)
+- sheeetprocess.rowtltie(xlsx=True,'filename',sheetnum=-1,title=1)
 ### Groupby
-- sheetprocess.groupby(filename,sheetnum=-1,*col)
+- sheetprocess.groupby(xlsx=True,filename,sheetnum=-1,*col)
 
-- Last of *col mean quantity.For example,groupby('data/test1.xls',0,1,2,3),mean accounting the third column 
+- Last of *col mean quantity.For example,groupby(True,'data/test1.xls',0,1,2,3),mean accounting the third column 
 
 ## License
 

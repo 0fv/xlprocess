@@ -3,7 +3,7 @@ import re
 
 from xlprocess.tolist import tolist, alltolist
 from xlprocess.xlsxlist import listtoxlsx
-
+from xlprocess.xlslist import listtoxls
 from xlprocess.listprocess import removesheetform
 
 
@@ -30,5 +30,12 @@ def toxlsx(filename='',sheetnum=-1):
     filename=setfilename(filename)+'.xlsx'
     listtoxlsx(filename,datas)
 
+def filetype(xlsx=True, filename='', datas=[]):
+    if xlsx:
+        filename = setfilename(filename) + '.xlsx'
+        listtoxlsx(filename, datas)
+    else:
+        subfilename = setfilename(filename) + '.xls'
+        listtoxls(subfilename, datas)
 #tocsv('data/test1.xlsx')
 #toxlsx('data/test1.xls')
