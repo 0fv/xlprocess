@@ -21,7 +21,6 @@ def rowtltie(filename='',sheetnum=-1,title=1):
         adata.append(data1)
     filename=setfilename(filename)+'2.xlsx'
     listtoxlsx(filename,adata)
-rowtltie('data/test1.xls',title=3)
 
 def groupby(filename,sheetnum=-1,*col):
     datas=tolist(filename,sheetnum)
