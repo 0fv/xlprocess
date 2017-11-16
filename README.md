@@ -1,5 +1,9 @@
 # xlprocesstoolbox
 Find a way to process excel esaily,base on  openpyxl,xlrd,xlwt.support *.xls,**.xlsx*
+## Install
+```
+pip3 install xlprocessr
+```
 ## Format change
 ###  Change format to csv
 - fornatchange.tocsv(filename,sheetnum=-1)
@@ -13,11 +17,8 @@ Find a way to process excel esaily,base on  openpyxl,xlrd,xlwt.support *.xls,**.
 - fileprocess.combination(file1,file2,file3...) 
 
 return a new file named 'comfile.xlsx'
-## Split one file accroding its sheet's name
+## Split one file accroding sheet's name
 -  fileprocess.filesplit('filename')
-
-sheetname is file name
-## Sheet process
 ### Generate row title
 - sheeetprocess.rowtltie('filename',sheetnum=-1,title=1)
 ### Groupby

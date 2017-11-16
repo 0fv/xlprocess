@@ -1,3 +1,4 @@
+setup.cfg
 setup.py
 xlprocess/__init__.py
 xlprocess/fileprocess.py
