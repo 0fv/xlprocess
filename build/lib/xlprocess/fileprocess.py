@@ -14,14 +14,10 @@ def combination(xlsx=True,*filenames):
     else:
         listtoxls('comfile.xls', alist)
 #combination('data/test.xlsx','data/test1.xls')
-def splitfile(xlsx=True,filename=''):
+def splitfile(filename):
     datas=alltolist(filename)
     for data in datas:
+        subfilename=data[0]+'.xlsx'
         dat=[data]
-        if xlsx:
-            subfilename = data[0] + '.xlsx'
-            listtoxlsx(subfilename,dat)
-        else:
-            subfilename = data[0] + '.xls'
-            listtoxls(subfilename, dat)
+        listtoxlsx(subfilename,dat)
 #splitfile('comfile.xlsx')

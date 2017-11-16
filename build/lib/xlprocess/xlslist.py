@@ -31,7 +31,7 @@ def listtoxls(filename='' ,sheets=[[]]):
         for sheet in sheets:
             sheetname=sheet[0]
             if sheetname  in  name:
-                sheetname = sheetname + 'renamed' + '(' + str(renametime) + ')'
+                sheetname = sheetname + 'renamedtim' + '(' + str(renametime) + ')'
                 renametime = renametime+1
             table=wb.add_sheet(sheetname,cell_overwrite_ok=True)
             for a in range(1,len(sheet)):

@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = 'xlprocessr',
-    version = '0.1',
+    name = 'xlprocess',
+    version = '0.1.1a',
     description = 'Process excel file',
     license = 'MIT License',
     url = 'https://github.com/NTN9115/xlprocess',
