@@ -5,6 +5,14 @@ Find a way to process excel esaily,base on  openpyxl,xlrd,xlwt.support *.xls.xls
 pip3 install xlprocess
 ```
 ## Format change
+
+### Change into python list
+-  tolist(filename='', sheetnum=-1)
+
+sheetnum=-1 meaning all sheets in file change to list.The data structure like this:
+```
+[[sheetname,[value in A1,value in A2,value in A3],[value in B1,value in B2,value in B3], ......value in N3],[sheetname2,[...]]
+```
 ###  Change format to csv
 - formatchange.tocsv(filename,sheetnum=-1)
 
@@ -29,8 +37,10 @@ Default return a new file named 'comfile.xlsx',but when the character in cell is
 ### Groupby
 - sheetprocess.groupby(xlsx=True,filename,sheetnum=-1,*col)
 
-- Last of *col mean quantity.For example,groupby(True,'data/test1.xls',0,1,2,3),mean accounting the third column 
+- Last of *col meaning quantity.For example,groupby(True,'data/test1.xls',0,1,2,3),meaning accounting the third column 
 
+###  Classify  by columns
+- sheetprocess.classify(xlsx=True,'filename',*col)
 ## License
 
 The MIT License

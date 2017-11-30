@@ -1,5 +1,5 @@
 def removesheetform(datas=[[]]):
-    datar=[]
+    datar = []
     datar.append(datas[0][0])
     for data in datas:
         for dat in data[1:]:

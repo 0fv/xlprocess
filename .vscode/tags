@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__init__.py	../xlprocess/__init__.py	1;"	kind:file	line:1
+alltolist	../xlprocess/tolist.py	/^def alltolist(filename=''):$/;"	kind:function	line:21
+author	../setup.py	/^    author = 'Ning',$/;"	kind:variable	line:9
+author_email	../setup.py	/^    author_email = 'accelerato314@outlook.com',$/;"	kind:variable	line:10
+combination	../xlprocess/fileprocess.py	/^def combination(xlsx=True,*filenames):$/;"	kind:function	line:8
+description	../setup.py	/^    description = 'Process excel file',$/;"	kind:variable	line:6
+fcombination	../xlprocess/fileprocess.py	/^def fcombination(xlsx=True,dir=''):$/;"	kind:function	line:19
+fileprocess.py	../xlprocess/fileprocess.py	1;"	kind:file	line:1
+filetype	../xlprocess/formatchange.py	/^def filetype(xlsx=True, filename='', datas=[]):$/;"	kind:function	line:33
+formatchange.py	../xlprocess/formatchange.py	1;"	kind:file	line:1
+groupby	../xlprocess/sheetprocess.py	/^def groupby(xlsx=True,filename='',sheetnum=-1,*col):$/;"	kind:function	line:23
+license	../setup.py	/^    license = 'MIT License',$/;"	kind:variable	line:7
+listprocess.py	../xlprocess/listprocess.py	1;"	kind:file	line:1
+listtoxls	../xlprocess/xlslist.py	/^def listtoxls(filename='' ,sheets=[[]]):$/;"	kind:function	line:27
+listtoxlsx	../xlprocess/xlsxlist.py	/^def listtoxlsx(filename='',sheets=[[]]):$/;"	kind:function	line:36
+name	../setup.py	/^    name = 'xlprocess',$/;"	kind:variable	line:4
+packages	../setup.py	/^    packages = find_packages(),$/;"	kind:variable	line:11
+platforms	../setup.py	/^    platforms = 'any',$/;"	kind:variable	line:12
+removesheetform	../xlprocess/listprocess.py	/^def removesheetform(datas=[[]]):$/;"	kind:function	line:1
+rowtltie	../xlprocess/sheetprocess.py	/^def rowtltie(xlsx=True,filename='',sheetnum=-1,title=1):$/;"	kind:function	line:6
+setfilename	../xlprocess/formatchange.py	/^def setfilename(filename=''):$/;"	kind:function	line:10
+setup.py	../setup.py	1;"	kind:file	line:1
+sheetprocess.py	../xlprocess/sheetprocess.py	1;"	kind:file	line:1
+splitfile	../xlprocess/fileprocess.py	/^def splitfile(xlsx=True,filename=''):$/;"	kind:function	line:36
+testsameheetname	../xlprocess/fileprocess.py	/^def testsameheetname(olist=[[]]):$/;"	kind:function	line:47
+tocsv	../xlprocess/formatchange.py	/^def tocsv(filename='',sheetnum=-1):$/;"	kind:function	line:15
+tolist	../xlprocess/tolist.py	/^def tolist(filename='',sheetnum=-1):$/;"	kind:function	line:8
+tolist.py	../xlprocess/tolist.py	1;"	kind:file	line:1
+toxlsx	../xlprocess/formatchange.py	/^def toxlsx(filename='',sheetnum=-1):$/;"	kind:function	line:24
+url	../setup.py	/^    url = 'https:\/\/github.com\/NTN9115\/xlprocess',$/;"	kind:variable	line:8
+version	../setup.py	/^    version = '0.1.12',$/;"	kind:variable	line:5
+xlsalltolist	../xlprocess/xlslist.py	/^def xlsalltolist(filename=''):$/;"	kind:function	line:14
+xlslist.py	../xlprocess/xlslist.py	1;"	kind:file	line:1
+xlstolist	../xlprocess/xlslist.py	/^def xlstolist(filename='',sheetnum=0):$/;"	kind:function	line:4
+xlsxalltolist	../xlprocess/xlsxlist.py	/^def xlsxalltolist(filename=''):$/;"	kind:function	line:17
+xlsxlist.py	../xlprocess/xlsxlist.py	1;"	kind:file	line:1
+xlsxtolist	../xlprocess/xlsxlist.py	/^def xlsxtolist(filename='',sheetnum=0):$/;"	kind:function	line:2
