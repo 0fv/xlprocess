@@ -7,7 +7,7 @@ pip3 install xlprocess
 ## Format change
 
 ### Change into python list
--  tolist(filename='', sheetnum=-1)
+-  tolist.tolist(filename='', sheetnum=-1)
 
 sheetnum=-1 meaning all sheets in file change to list.The data structure like this:
 ```

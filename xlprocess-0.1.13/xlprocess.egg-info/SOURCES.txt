@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+xlprocess/__init__.py
+xlprocess/fileprocess.py
+xlprocess/formatchange.py
+xlprocess/listprocess.py
+xlprocess/sheetprocess.py
+xlprocess/tolist.py
+xlprocess/xlslist.py
+xlprocess/xlsxlist.py
+xlprocess.egg-info/PKG-INFO
+xlprocess.egg-info/SOURCES.txt
+xlprocess.egg-info/dependency_links.txt
+xlprocess.egg-info/requires.txt
+xlprocess.egg-info/top_level.txt
